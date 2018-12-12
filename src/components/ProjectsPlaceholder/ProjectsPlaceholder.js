@@ -5,7 +5,7 @@ import "./portfolio.css"
 export default class Card extends React.Component {
     render() {
         return (
-            <div className = "row">
+            <div className="row">
                 <div className="container col s2 wrapper">
                     <div className="card portfolio-items">
                         <div className="card-title">
@@ -30,7 +30,7 @@ export default class Card extends React.Component {
                     </div>
                 </div>
 
-                  <div className="container col s2 wrapper">
+                <div className="container col s2 wrapper">
                     <div className="card portfolio-items">
                         <div className="card-title">
                             <span>GIFY API Gif Generator</span>
@@ -42,7 +42,7 @@ export default class Card extends React.Component {
                     </div>
                 </div>
 
-                  <div className="container col s2 wrapper">
+                <div className="container col s2 wrapper">
                     <div className="card portfolio-items">
                         <div className="card-title">
                             <span>jQuery Game</span>
@@ -54,7 +54,7 @@ export default class Card extends React.Component {
                     </div>
                 </div>
 
-                  <div className="container col s2 wrapper">
+                <div className="container col s2 wrapper">
                     <div className="card portfolio-items">
                         <div className="card-title">
                             <span>mySQL Burger App</span>
@@ -66,15 +66,14 @@ export default class Card extends React.Component {
                     </div>
                 </div>
 
-                  <div className="container col s2 wrapper">
+                <div className="container col s2 wrapper">
                     <div className="card portfolio-items">
                         <div className="card-title">
-                            <span>LIRI Bot NodeJS App</span>
+                            <span>React Memory Game</span>
                         </div>
                         <hr></hr>
                         <div className="card-section">
-                        <p>Requires NodeJS to run!</p>
-                            <a href="https://github.com/cimafrancad45/LIRI">Github Link</a>
+                            <a href="https://github.com/cimafrancad45/clicker-game">Github Link</a>
                         </div>
                     </div>
                 </div>
