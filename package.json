@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage": "https://cimafrancad45.github.io/React-Portfolio",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5",
-    "homepage": "https://cimafrancad45.github.io/"
+    "react-scripts": "2.0.5"
+    
   },
   "scripts": {
     "start": "react-scripts start",
