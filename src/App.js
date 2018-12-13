@@ -18,7 +18,7 @@ export default class App extends Component {
         <Navbar />
         <HeaderCard>
         </ HeaderCard>
-        <div className="row">
+        <div className="container row">
           {this.state.project.map(project => (
             <ProjectCard
               projectName={project.projectName}
