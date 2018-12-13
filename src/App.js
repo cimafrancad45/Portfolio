@@ -1,19 +1,30 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HeaderCard from "./components/HeaderCard"
-import ProjectsPlaceholder from "./components/ProjectsPlaceholder"
+import ProjectCard from "./components/ProjectCard"
+import project from "./projects.json"
 
 export default class App extends Component {
+
+  state = {
+    project
+  };
+
+
   render() {
     return (
       <div>
         <Navbar />
         <HeaderCard>
-          </ HeaderCard>
-
-        <ProjectsPlaceholder></ProjectsPlaceholder>
+        </ HeaderCard>
+        <div className="row">
+          {this.state.project.map(project => (
+            <ProjectCard
+              projectName={project.projectName}
+              projectLink={project.projectLink} />
+          ))}
+        </div>
       </div>
     );
   }
